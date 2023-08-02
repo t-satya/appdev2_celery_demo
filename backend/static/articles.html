@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h2>Here's the list of all the articles you requested </h2>
+        <div>
+
+                    {% for article in data %}
+                    <div>
+                       <h3>{{article.title}}</h3> 
+                       <p>{{article.content}}</p>
+                    </div>
+                    {% endfor %}
+
+        </div>
+    </body>
+</html>

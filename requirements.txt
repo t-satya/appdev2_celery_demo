@@ -1,0 +1,8 @@
+flask
+flask_sqlalchemy
+flask_restful
+flask_cors
+flask_security_too
+flask_cache
+celery
+weasyprint==52.5
